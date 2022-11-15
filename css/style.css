@@ -1,0 +1,87 @@
+header {
+  background-color: whitesmoke;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+header a {
+  color: #150603;
+  text-decoration: none;
+  font-size: 30px;
+  margin: 7px 15px;
+}
+header nav a {
+  font-size: 15px;
+}
+
+footer {
+  background-color: #150603;
+  color: whitesmoke;
+  height: 100%;
+  width: 100%;
+}
+footer .iconos {
+  text-align: center;
+  font-size: 30px;
+}
+footer .iconos i {
+  margin: 0px 10px 20px 0;
+}
+
+.celda1 {
+  color: whitesmoke;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/compartir\ chica.jpg);
+}
+
+.celda2 {
+  background-color: whitesmoke;
+  color: #150603;
+}
+.celda2 h2 {
+  font-size: 60px;
+  font-family: roboto;
+}
+.celda2 p {
+  font-size: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.celda2 img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.celda3 h2 {
+  font-size: 60px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: sans-serif;
+  background-color: whitesmoke;
+}
+
+.main__index {
+  width: 90%;
+  margin: auto;
+}
+
+/* 
+.img__principal{
+    background-image: url(../img/fondo4.jpg); 
+} 
+ */
+
+/*# sourceMappingURL=style.css.map */

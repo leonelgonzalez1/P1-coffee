@@ -1,0 +1,40 @@
+.celda1{
+    color: whitesmoke;
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../img/compartir\ chica.jpg);
+
+}
+
+.celda2{
+    background-color:whitesmoke;  
+    color: #150603;
+    h2{
+        font-size: 60px;
+        font-family: roboto;
+    }
+    p{
+        font-size: 15px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    img{
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+.celda3{
+    h2{
+        font-size: 60px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+}

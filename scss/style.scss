@@ -1,0 +1,26 @@
+
+@import "header";
+@import "footer";
+@import "index";
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family:sans-serif ;
+    background-color: whitesmoke;
+
+}
+.main__index{
+    width: 90%;
+    margin: auto;
+}
+/* 
+.img__principal{
+    background-image: url(../img/fondo4.jpg); 
+} 
+ */
